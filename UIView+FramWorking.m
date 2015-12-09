@@ -152,7 +152,7 @@
 }
 
 #pragma mark - Semantic properties
-- (UIView *)andWith {
+- (UIView *)with {
     return self;
 }
 

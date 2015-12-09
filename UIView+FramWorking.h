@@ -19,6 +19,11 @@
 @property (assign, nonatomic, readonly) CGFloat halfWidth;
 @property (assign, nonatomic, readonly) CGFloat halfHeight;
 
+/**
+ *	Optional semantic property which has no effect but improves the readability of constraint
+ */
+- (UIView *)with;
+
 - (void)setX:(CGFloat)x;
 - (void)setY:(CGFloat)y;
 - (void)setCenterX:(CGFloat)x;
